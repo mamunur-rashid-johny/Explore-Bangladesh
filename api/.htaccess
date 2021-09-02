@@ -1,0 +1,6 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteRule ^([^.?]+)$ %{REQUEST_URI}.php [L]
+
+ErrorDocument 404 /bangladesh/index.php
